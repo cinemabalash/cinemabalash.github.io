@@ -1,43 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<title>Example</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  * {
-   box-sizing: border-box;
-  }
-  body {
+body, html {
+    height: 100%;
     margin: 0;
-  }
-  #main {
-    display: flex;
-    min-height: calc(100vh - 40vh);
-  }
-  #main > article {
-    flex: 1;
-  }
-  #main > nav,
-  #main > aside {
-    flex: 0 0 20vw;
-    background: yellow;
-  }
-  #main > nav {
-    order: -1;
-  }
-  header, footer, article, nav, aside {
-    padding: 1em;
-  }
-  header, footer {
-    background: red;
-    height: 60vh;
-  }
+}
+
+.bg {
+    /* The image used */
+    background-image: url("assets/image1.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 </style>
+</head>
 <body>
-  <header>CINEMA BALASH</header>
-  <div id="main">
-    <article>POST 1</article>
-    <nav>Nav</nav>
-    <aside>DETAILS</aside>
-  </div>
-  <footer>FOOTER</footer>
+
+<div class="bg"></div>
+
+<p>This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+
 </body>
 </html>
