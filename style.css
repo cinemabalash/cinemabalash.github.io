@@ -1,6 +1,98 @@
-.center {
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.sidenav {
+    width: 140px;
+    position: fixed;
+    z-index: 1;
+    top: 350px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2196F3;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 180px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+font-family: 'Amiri', serif;
+
+}
+
+.project__video-container {
+padding-right: 2rem;
+width: 100%;
+margin: 1rem 0;
+}
+
+.project__video {
+  width: 100%;
+  height: 56%
+}
+
+.project__image {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.project__image-small {
+    width: 45%;
+display: inline-block;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+}
+
+h1 {
+    color: blue;
+    font-family: 'Oswald';
+    font-size: 160%;
+    border: 1px solid white;
+    margin-left: 60px;
+
+}
+
+h2 {
+    color: grey;
+    font-family: 'Oswald';
+    font-size: 100%;
+    margin-left: 60px;
+
+}
+
+h3 {
+    color: lightgrey;
+    font-family: 'Amiri';
+    font-size: 80%;
+    margin-left: 60px;
+
+}
+
+p {
+    color: grey;
+    font-family: 'Amiri', sans-serif;
+    font-size: 90%;
+    border: 1px solid white;
+    margin-left: 20px;
+
 }
