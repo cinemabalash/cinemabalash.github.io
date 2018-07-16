@@ -52,8 +52,9 @@ margin: 1rem 0;
 
 .project__image {
   max-width: 100%;
-
   margin: 1rem 0;
+  position: center;
+  size: cover;
 }
 
 .project__image-small {
