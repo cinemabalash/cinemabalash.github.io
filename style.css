@@ -54,7 +54,7 @@ margin: 1rem 0;
 
   margin: 1rem 0;
   position: center;
-  size: cover;
+  size: contain;
 }
 
 .project__image {
