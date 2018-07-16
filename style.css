@@ -52,7 +52,7 @@ margin: 1rem 0;
 
 .project__image__full {
 
-  width: auto;
+  width: 200%;
   position: center;
   size: cover;
 }
