@@ -33,7 +33,7 @@ body, html {
 .main {
     margin-left: 120px; /* Same width as the sidebar + left position in px */
     margin-right: 10px;
-    font-size: 11px; /* Increased text to enable scrolling */
+    font-size: 14px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 font-family: 'Amiri', serif;
 
